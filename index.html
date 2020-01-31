@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Página</title>
+</head>
+<body>
+    
+    <div><h1 class="display-4 titulo">PRESUPUESTO SEMANAL</h1></div>
+    
+    <div class="contenedor">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class=" col-12 col-md-6">
+                    <h2 class="titulo text-muted ">Añade tus gastos</h2>
+                    
+                    <div class="form" id="formularioGasto">
+                        <form action="">
+                            <label for="gasto"> <span class="label">Gasto</span> </label>
+                            <input type="text" id="nombreGasto" name="gasto" class="box-form" placeholder="Nombre de gasto">
+                            <label for="costo"><span class="label">Costo</span></label>
+                            <input type="text" id="valorGasto" name="costo" class="box-form" placeholder="cantidad en dólares">
+                            <button type="submit" class="box-form button-form">Agregar</button>
+                        </form>
+                    </div>
+                    
+
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <h2 class="titulo text-muted">Listado</h2>
+
+                    <div class="presupuesto">
+                        <p class="txt-pre">Presupuesto : $ <span id="presupuesto"></span></p>
+                    </div>
+
+                    <div class="restante">
+                            <p class="txt-res">Restante : $ <span id="presupuestoRes"></span></p>
+                    </div>
+
+                    <div class="listadoGastos" id="listadoGastos">
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+        <p>Creado por Omar &copy;</p>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

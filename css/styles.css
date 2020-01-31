@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.contenedor {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+.form {
+    width: 100%;
+}
+.label {
+    border-bottom: 2px solid #22919ff0;
+}
+.box-form {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 3px 10px;
+    outline-color: #22919ff0;
+}
+
+.button-form {
+    border: none;
+    padding: 5px;
+    background-color: #22919ff0;
+    color: white;
+    font-weight: 600;
+}
+
+.presupuesto {
+    padding: 5px 5px;
+    border-bottom: 2px solid #2467e2;
+    margin-bottom: 20px;
+}
+.txt-pre {
+    font-size: 28px;
+    color: #2467e2;
+}
+
+
+.restante {
+    padding: 5px 5px;
+    border-bottom: 2px solid #2467e2;
+}
+
+.txt-res {
+   font-size: 28px;
+   color: #2467e2; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color: #171a17e8;
+    color: white;
+    text-align: center;
+}
+.footer p {
+    margin: 16px 0;
+}
+
+.listadoGastos {
+    margin-top: 30px;
+}
